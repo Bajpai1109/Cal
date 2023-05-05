@@ -40,7 +40,7 @@ input {
   box-shadow: 1px 1px 15px rgba(93, 69, 180, 0.55),
     -1px -1px 15px rgba(0, 0, 0, 0.15);
 }
-@media (min-width: 500px) {
+@media screen and (min-width: 480px) {
   .btn{
   border-radius: 50%;
   font-size: 25px;
