@@ -40,7 +40,7 @@ input {
   box-shadow: 1px 1px 15px rgba(93, 69, 180, 0.55),
     -1px -1px 15px rgba(0, 0, 0, 0.15);
 }
-@media (max-width: 767.98px) {
+@media (min-width: 400px) {
   .btn{
   border-radius: 50%;
   font-size: 25px;
@@ -58,8 +58,8 @@ input {
     border-radius: 50%;
     font-size: 25px;
     border: none;
-    width: 75px;
-    height: 75px;
+    width: 57px;
+    height: 57px;
     margin: 8px;
     padding: 0px;
     background-color: #d4d4d2;
