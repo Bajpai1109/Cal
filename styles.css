@@ -40,36 +40,38 @@ input {
   box-shadow: 1px 1px 15px rgba(93, 69, 180, 0.55),
     -1px -1px 15px rgba(0, 0, 0, 0.15);
 }
-@media screen and (min-width: 480px) {
   .btn{
   border-radius: 50%;
   font-size: 25px;
   border: none;
-  width: 75px;
-  height: 75px;
+  width: 57px;
+  height: 57px;
   margin: 8px;
   padding: 0px;
   background-color: #d4d4d2;
   box-shadow: 1px 1px 5px rgba(19, 128, 158, 0.55),
   -1px -1px 7px rgba(20, 168, 176, 0.55);
 }
-}
-.btn{
-    border-radius: 50%;
-    font-size: 25px;
-    border: none;
-    width: 57px;
-    height: 57px;
-    margin: 8px;
-    padding: 0px;
-    background-color: #d4d4d2;
-    box-shadow: 1px 1px 5px rgba(19, 128, 158, 0.55),
-    -1px -1px 7px rgba(20, 168, 176, 0.55);
-}
+
+
 .op{
   color: #033b55;
 }
 .equals{
     border-radius: 50%;
     background-color: #fb7c14;
+}
+@media screen and (min-width: 445px) {
+  .btn{
+    border-radius: 50%;
+    font-size: 25px;
+    border: none;
+    width: 75px;
+    height: 75px;
+    margin: 8px;
+    padding: 0px;
+    background-color: #d4d4d2;
+    box-shadow: 1px 1px 5px rgba(19, 128, 158, 0.55),
+    -1px -1px 7px rgba(20, 168, 176, 0.55);
+}
 }
